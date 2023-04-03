@@ -20,7 +20,7 @@ function Header() {
               height="35"
               className="d-inline-block align-top"
             />
-            <h2 className='d-inline-block m-1 text-white'>TOP Restaurant</h2>
+             <span className='aling-left fs-2 ms-2 '>TOP Restaurant</span >
           </Navbar.Brand>
         </Container>
       </Navbar>

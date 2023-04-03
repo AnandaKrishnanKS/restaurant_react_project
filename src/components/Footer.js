@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div>
         <Row>
-            <h5 className='bg-dark p-2 text-white'>
+            <h5 className='bg-black p-2 text-white text-center'>
                 All rights are reserved to Find Food Restaurant 2023
             </h5>
         </Row>

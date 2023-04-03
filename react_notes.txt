@@ -56,6 +56,13 @@ first working hook of a component
 useEffect - react hook
 
 
+Redirection/Routing in React
+------------------------------
+ react-router-dom         - library used for Routing (has 3 component to use)
+ 
+ Browser Router - wrap the main component inside browser router component 
+ Route          - wrap the component inside Route which need redirection 
+ Routes         - wrap all the router if we set more than one component paths 
 
 
 

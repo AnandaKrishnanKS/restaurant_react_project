@@ -1,4 +1,7 @@
 import { React, useEffect, useState } from "react";
+import Restcard from "./Restcard";
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function Restaurant() {
   //create state to hold data from api and useState is set as empty array
@@ -24,7 +27,20 @@ function Restaurant() {
   ,[]
   )
 
-  return <div></div>;
+  return (
+
+  <Row className="bg-dark">
+    {
+      restaurantList.map(item=>(
+
+        <Col className=" p-3 bg-dark " lg={4} md={6}>
+        <Restcard restdata={item} ></Restcard>
+        </Col>
+        
+      ))
+    }
+  </Row>
+  )
 }
 
 export default Restaurant;
