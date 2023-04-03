@@ -1,0 +1,72 @@
+React
+======
+npx create-react-app <appname>
+
+npm start      - to run 
+
+building blocks of react
+-------------------------
+   -html  -css  -js 
+
+
+ Angular                vs             React             
+=========                            ==========
+-framework of Js                    -library of Js
+-real DOM                           -virtual DOM
+                                (next.js is a framework of react)
+
+Advantages of React
+--------------------
+-React uses virtual DOM  (faster)
+-Reusable components
+-Jsx (JavaScript xml) 
+
+
+components in React
+-------------------
+1-class based       -statefull components
+2-function based    -stateless components (cant use variables in old react but fixed with hooks in later updates)
+
+-react hooks (used to create state for a stateless component in function based component)
+
+state
+-------
+object used to store datas inside a component in react 
+
+useState  - is name of which comes from react library
+
+
+props  (properties short form)
+------
+-to share data from parent to child component
+-destructuring -use to makes props esay.
+
+
+API call in js
+---------------
+
+Ajax- asincronous JavaScript and xml
+-----
+     -XmlHttp
+     -fetch
+     -async await
+
+first working hook of a component
+----------------------------------
+useEffect - react hook
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------
+:: rfce - code to create boilerplate stucture on new component
+---------------------------------------------------------------
+
+
+
