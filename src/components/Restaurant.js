@@ -17,7 +17,7 @@ function Restaurant() {
   }
   
   //to check if fetchData is working
-  console.log(restaurantList);
+  // console.log(restaurantList);
 
   //useEffect is a react hook that work first on a loading page 
   useEffect(()=>{

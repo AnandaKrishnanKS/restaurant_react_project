@@ -65,6 +65,20 @@ Redirection/Routing in React
  Routes         - wrap all the router if we set more than one component paths 
 
 
+Link - a component in react-router-dom used for redirection
+
+
+useParams - hook in react-router-dom used to access params
+
+
+
+
+
+
+
+
+
+
 
 
 
