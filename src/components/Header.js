@@ -12,7 +12,7 @@ function Header() {
 
 <Navbar bg="black" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <img
               alt=""
               src="https://imgs.search.brave.com/Ppy71vKmE5rPM9xP56qqZ2FtjRdhxxB7vMBuxaTdLpg/rs:fit:600:600:1/g:ce/aHR0cHM6Ly9mcmVl/c3ZnLm9yZy9pbWcv/Q29va1NpZ24ucG5n"

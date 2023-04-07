@@ -2,6 +2,7 @@ import { React, useEffect, useState } from "react";
 import Restcard from "./Restcard";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { Container } from "react-bootstrap";
 
 function Restaurant() {
   //create state to hold data from api and useState is set as empty array
@@ -28,18 +29,21 @@ function Restaurant() {
   )
 
   return (
-
-  <Row className="bg-dark">
-    {
-      restaurantList.map(item=>(
-
-        <Col className=" p-3 bg-dark " lg={4} md={6}>
-        <Restcard restdata={item} ></Restcard>
-        </Col>
-        
-      ))
-    }
-  </Row>
+<div className="bg-dark">
+  <Container >
+      <Row >
+        {
+          restaurantList.map(item=>(
+    
+            <Col className=" p-3 bg-dark " lg={4} md={6}>
+            <Restcard restdata={item} ></Restcard>
+            </Col>
+            
+          ))
+        }
+      </Row>
+  </Container>
+</div>
   )
 }
 

@@ -6,8 +6,8 @@ function Restcard({restdata}) {
   return (
     <>
       <Link to={`/RestaurantDetails/${restdata.id}`}>
-        <Card className="ms-auto me-auto bg-black text-white" style={{ width: "18rem" }}>
-          <Card.Img variant="top" src={restdata.photograph} />
+        <Card id="popefect" className="ms-auto me-auto bg-black text-white border rounded p-1" style={{ width: "18rem" }}>
+          <Card.Img variant="top" className="rounded-top" src={restdata.photograph} />
           <Card.Body>
             <span className="fs-3 fw-bold">{restdata.name}</span>
             <Card.Text>

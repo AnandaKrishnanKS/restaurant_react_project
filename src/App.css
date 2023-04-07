@@ -2,3 +2,11 @@
   overflow-x: hidden;
 
 }
+
+
+#popefect{
+  transition: .5s ease-in-out ;
+}
+#popefect:hover{
+  transform: scale(1.02);
+}
